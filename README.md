@@ -1,6 +1,8 @@
 # ROCK-VS-MINE-PREDICTION
 This project uses machine learning algorithms to classify whether a given sample is a rock or a mine based on sonar data. The model is trained to distinguish between rocks and mines using supervised learning technique as Logistic Regression, and it is applied to achieve optimal accuracy.
+
 Dataset: Sonar dataset.
+
 Modeling: For the Rock vs Mine Prediction project, I used Logistic Regression as one of the primary machine learning algorithms to classify the sonar data. Logistic Regression is a simple yet powerful algorithm for binary classification problems. It works by modeling the probability that a given input belongs to a particular class, in this case, whether the sample is a rock or a mine.
 
 In this project, I trained the Logistic Regression model using the sonar dataset, where each instance consists of 60 features representing energy values. The model attempts to find a linear relationship between the features and the target class (rock or mine) by applying a logistic function to the weighted sum of the input features.
